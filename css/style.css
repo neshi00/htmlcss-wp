@@ -59,43 +59,77 @@ nav ul li a {
 
 main {
     width: 100%;
-    height: 600px;
-    background-color: blue;
 }
 
 .over-row {
-    height: 100px;
-    background-color: #abcfe7;
     margin: 20px 0;
 }
 
+.over-row h2 {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.over-row p {
+    color: #9b9b9b;
+}
+
 .row {
-    width: 100%;
-    height: 460px;
+    margin-bottom: 20px;
+}
+
+.content {
+    height: 250px;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: gray;
 }
 
 .left {
-    width: calc(20% - 10px);
+    width: calc(20% - 20px);
     float: left;
-    background-color: #abcfe7;
-
 }
+
+.content-left {
+    background-image: url(../img/img-1.jpg);
+    border: 1px solid black;
+}
+
 .central {
     width: 60%;
     float: left;
-    background-color: #abcfe7;
-    margin: 0 10px;
+    margin: 0 20px;
+}
+
+.content-central {
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    border: 1px solid black;
 }
 
 .right {
-    width: calc(20% - 10px);
+    width: calc(20% - 20px);
     float: left;
-    background-color: #abcfe7;
+}
+
+.content-right {
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    border: 1px solid black;
+}
+
+.text-content {
+    padding: 20px 0;
+}
+
+.text-content h4 {
+    padding: 10px 0;
 }
 
 footer {
-    width: 100%;
-    height: 60px;
-    background-color: #8801fe;
+    text-align: center;  
 }
 
+footer span {
+    color: red;
+}
