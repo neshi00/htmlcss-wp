@@ -26,10 +26,22 @@ header {
     padding-right: 20px;
 }
 
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #9b9b9b;
+}
+
 .promoted {
     width: 100%;
     height: 400px;
-    margin: 20px 0;
+    margin: 40px 0;
     background-color: #e1d67a;
 }
 
